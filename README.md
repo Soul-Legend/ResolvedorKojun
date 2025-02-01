@@ -26,7 +26,18 @@ ChecarNumerosDiferentesOrtogonais realiza a validação para entender se os valo
 
 Já no contexto dos métodos utilizados para obter as informações do tabuleiro tem-se: obterIdentificadorRegiao, que a partir de uma posição retorna o número da região do tabuleiro. obterValoresRegiao retorna todos os valores presentes em uma dada região. obterTamanhoregiao obtém o identificador e conta a quantidade de posições que fazem parte desta região. ObterAcimaBaixoNaRegiao recebe a posição e retorna dois valores opcionais representando a parte de cima que se encontra na mesma região se existir, e a segunda parte da tupla que representa a posição da mesma região, claro se existir. Por último obter valores ortogonais retorna uma lista com os valores ortogonais à posição passada como parâmetro.
 
+## Input do código
+Para resolver um novo tabuleiro o usuário deve informar no arquivo Boards.scala
+a matriz que representa os valores iniciais do Kojun a ser resolvido e também deve
+ser colocado no mesmo arquivo as áreas do tabuleiro, como pode ser observado na figura
+2. Os espaços em branco são representados com 0.
 
+![image](https://github.com/user-attachments/assets/271a92b9-fdad-4253-9205-9c48e481de2d)
+
+Além disso, o usuário também deve incluir no arquivo main.hs para realizar o
+print da solução do board desejado conforme a figura 3 demonstra.
+
+![image](https://github.com/user-attachments/assets/91191910-516a-4403-973c-a50312282a3b)
 
 ## ✒️ Autores
 * ##### [Vitor Praxedes Calegari](https://github.com/Vitor-Calegari)
